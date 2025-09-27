@@ -30,6 +30,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent !important;
+    caret-color: #FF8C66;
     
     text-decoration: none;
     animation: flowLeftToRight 6s ease-in-out infinite reverse;
@@ -86,6 +87,7 @@
     padding: 3px; /* 悬停时边框稍微加粗 */
 }
 
+
 /* ---------------->> 斜体 (*斜体*) - 适配H5样式 <<---------------- */
 /* 使用更高优先级的选择器覆盖原有样式 */
 #write p em,
@@ -96,7 +98,7 @@
     position: relative;
     width: fit-content;
     display: inline-block;
-    padding: 1px 12.5px;
+    padding: 0px 5px;
     
     /* "热带岛屿"三色渐变主题 */
     background: linear-gradient(135deg,
@@ -109,6 +111,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    caret-color: #FC6C85;
     animation: h5FlowFixedStutter 6s ease-in-out infinite reverse;
     transition: all 0.3s ease;
 }
@@ -122,6 +125,7 @@
 }
 
 
+
 /* ---------------->> 加粗 (**加粗**) - 适配H6样式 <<---------------- */
 /* 使用更高优先级的选择器覆盖原有样式 */
 #write p strong,
@@ -132,7 +136,7 @@
     position: relative;
     width: fit-content;
     display: inline-block;
-    padding: 1px 12.5px;
+    padding: 0px 5px;
     font-weight: bold;
     
     /* H6的多色彩渐变 */
@@ -149,6 +153,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent !important;
+    caret-color: #ffbe70;
     animation: h5FlowFixedStutter 6s ease-in-out infinite reverse;
     transition: all 0.3s ease;
 }
@@ -160,6 +165,7 @@
 #write strong:hover {
     animation: h5FlowFixedStutter 3s ease-in-out infinite reverse;
 }
+
 
 /* =====================================
    动画定义
@@ -213,43 +219,8 @@
 /* =====================================
    引用和链接样式
    ===================================== */
-   
-/* 引用代码样式 - 静态背景渐变 */
-body #write code,
-body #write p code,
-body #write li code,
-body #write span code {
-    background: linear-gradient(to right, #a9e5fc , #dce6d3 , #fccbb8 , #fccbb8, #dce6d3 , #a9e5fc ) !important;
-    color: #796f84 !important;
-    padding: 3px 8px !important;
-    border-radius: 4px !important;
-    border: none !important;
-    position: relative !important;
-    margin: 2px 4px !important;
-    font-family: inherit !important;
-    font-size: inherit !important;
-    line-height: 1.6 !important;
-    transition: transform 0.3s ease, box-shadow 0.5s ease, background 0.5s ease !important;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
-}
-
-/* 引用代码悬浮效果 - 只保留发光，去掉流动 */
-body #write code:hover,
-body #write p code:hover,
-body #write li code:hover,
-body #write span code:hover {
-    background: linear-gradient(to right, #ffc8bb, #aadddd, #ffc8bb) !important;
-    animation: glowPulse 2s ease-in-out infinite alternate !important;
-    box-shadow: 0 0 5px rgba(255, 160, 160, 0.5),
-        0 0 15px rgba(255, 160, 160, 0.4),
-        0 0 25px rgba(160, 200, 255, 0.4),
-        0 0 40px rgba(160, 200, 255, 0.2) !important;
-    color: #ffffff !important;
-    text-shadow: 0 0 4px rgba(75, 68, 83, 0.2) !important;
-}
 
 /* ---------------->> 链接 ([链接]()) - 静态渐变样式 <<---------------- */
-/* 使用最高优先级覆盖原有链接样式 */
 html body #write a,
 html body #write p a,
 html body #write li a,
@@ -265,8 +236,8 @@ html body a {
     text-decoration-color: transparent !important;
     position: relative !important;
     font-weight: 700 !important;
-    margin-left: 1px !important;
-    margin-right: 1px !important;
+    margin: 0 5px !important;
+    caret-color: #00BFFF;
 }
 
 /* 链接下划线静态渐变 */
@@ -304,21 +275,4 @@ html body a::after {
     height: 1.1em !important;
 }
 
-/* 超强优先级确保覆盖所有原有链接样式 */
-html body #write a,
-html body #write p a,
-html body #write li a,
-html body #write span a,
-html body a>span.md-plain,
-html body a.md-url,
-html body a,
-body a>span.md-plain,
-body a.md-url,
-body a {
-    color: transparent !important;
-    background: linear-gradient(90deg, #00BFFF 0%, #51f8a5 50%, #00BFFF 100%) !important;
-    background-size: 100% 100% !important;
-    -webkit-background-clip: text !important;
-    background-clip: text !important;
-}
 
