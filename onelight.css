@@ -125,6 +125,13 @@
     font-weight: 700
 }
 
+/* ---------------->> 斜体 <<---------------- */
+#write em,
+#write i {
+    color: #DA70D6; /* 兰花紫色 */
+    font-style: italic;
+}
+
 /* ---------------->> 链接 <<---------------- */
 a>span.md-plain,
 a.md-url,

@@ -169,6 +169,13 @@
      color: white;
  }
 
+/* ---------------->> 斜体 <<---------------- */
+#write em,
+#write i {
+    color: #DA70D6; /* 兰花紫色，适合深色主题 */
+    font-style: italic;
+}
+
  /* 源码切换按钮 */
  .typora-sourceview-on #toggle-sourceview-btn {
      background: transparent;
