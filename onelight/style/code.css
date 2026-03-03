@@ -67,6 +67,12 @@ pre[lang=sequence] {
     color: #333
 }
 
+pre[lang="diff"] .cm-s-inner .cm-error {
+    border: none !important;
+    color: inherit !important;
+    background-color: transparent !important;
+}
+
 /* ---------------->> 代码块 <<---------------- */
 .md-fences,
 code {
