@@ -67,7 +67,7 @@ pre[lang=sequence] {
     color: #333
 }
 
-pre[lang="diff"] .cm-s-inner .cm-error {
+pre[lang=diff] .cm-s-inner .cm-error {
     border: none;
     color: inherit;
     background-color: transparent;
