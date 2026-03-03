@@ -68,9 +68,9 @@ pre[lang=sequence] {
 }
 
 pre[lang="diff"] .cm-s-inner .cm-error {
-    border: none !important;
-    color: inherit !important;
-    background-color: transparent !important;
+    border: none;
+    color: inherit;
+    background-color: transparent;
 }
 
 /* ---------------->> 代码块 <<---------------- */
