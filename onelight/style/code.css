@@ -1,10 +1,16 @@
+:root {
+    --code-bg-color: #fff;
+    --code-bg-color-light: #f3f3f3;
+    --code-bg-color-active: #f3f3f3;
+}
+
 /* ---------------->> 代码框右下角的语言类型显示 <<---------------- */
 pre.md-fences.md-end-block.ty-contain-cm::after {
     content: attr(lang);
     position: absolute;
     right: 0;
     bottom: 0;
-    color: #e0e0e0;
+    color: var(--text-color);
     padding: 2px 5px;
     border-radius: var(--radius-small);
     z-index: 20;
@@ -13,7 +19,7 @@ pre.md-fences.md-end-block.ty-contain-cm::after {
 
 /* ---------------->> 代码块文本 <<---------------- */
 pre.CodeMirror-line>span {
-    color: var(--light-color);
+    color: var(--text-color);
 }
 
 .md-rawblock:hover>.md-rawblock-container {
@@ -46,18 +52,10 @@ pre.CodeMirror-line>span {
     background-color: var(--code-bg-color-active);
 }
 
-/* 活动行行号 */
-.CodeMirror-activeline .CodeMirror-activeline-gutter {
-    .CodeMirror-linenumber {
-        color: white;
-    }
-}
-
-
 
 /* ---------------->> 代码语言类型 <<---------------- */
 span.ty-input.ty-input-after.ty-cm-lang-input {
-    color: white;
+    color: var(--text-color);
 }
 
 pre[lang=flow],
@@ -141,7 +139,7 @@ code {
 }
 
 .cm-s-inner .cm-comment {
-    color: #cdcdcd;
+    color: #003011;
 }
 
 .cm-s-inner .cm-variable {
@@ -193,4 +191,14 @@ code {
 
 #write .md-heading code {
     font-size: unset;
+}
+
+
+.md-fences .CodeMirror-code>:hover {
+    background-color: var(--code-bg-color-light)
+}
+
+/* 行内代码 */
+#write code {
+    background-color: var(--code-bg-color);
 }

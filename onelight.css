@@ -7,8 +7,8 @@
 @import './onelight/style/icon.css';
 
 /* 表格样式 依次为 1.无边框 2.方形有边框 */
-@import './onelight/style/table/table.css';
-/* @import './onelight/style/table/table-square.css'; */
+/* @import './onelight/style/table/table.css'; */
+@import './onelight/style/table/table-square.css';
 
 /* 标题样式 依次为 1.原样式 2.彩色样式 */
 @import './onelight/style/title/title.css';
@@ -27,7 +27,6 @@
 
 :root {
     --bg-color: #f2f2f2;
-    --code-bg-color: #282c34;
     --text-color: black;
     --primary-btn-text-color: #fff;
     --active-file-bg-color: #eee;
@@ -50,9 +49,6 @@
     --main-yellow: #f9b03d;
     --light-color: #b2b2b2;
     --theme-light-color: white;
-    --code-bg-color: #282c34;
-    --code-bg-color-light: #3d404e;
-    --code-bg-color-active: #414855;
     --border-color: var(--theme-color);
     --border: solid 0.5px var(--theme-color)94;
     /* ---------------->> 悬浮 <<---------------- */
@@ -282,9 +278,7 @@ span#filesearch-case-option-btn:active {
     content: ']:';
 }
 
-.md-fences .CodeMirror-code>:hover {
-    background-color: var(--code-bg-color-light)
-}
+
 
 hr {
     border-top: 2px dashed var(--alert-theme-color, var(--theme-color));

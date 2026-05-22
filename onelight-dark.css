@@ -10,8 +10,8 @@
 /* 关于下面的设置，因为深色主题导入了浅色主题，所以修改深色主题时最好将浅色主题的配置设成一样 */
 
 /* 表格样式 依次为 1.无边框 2.方形有边框 */
-@import './onelight/style/table/table.css';
-/* @import './onelight/style/table/table-square.css'; */
+/* @import './onelight/style/table/table.css'; */
+@import './onelight/style/table/table-square.css';
 
 /* 标题样式 依次为 1.原样式 2.彩色样式 */
 @import './onelight/style/title/title.css';
@@ -28,8 +28,7 @@
 
 
 :root {
-    --bg-color: #282c34;
-    --code-bg-color: #3a3f4a;
+    --bg-color: #1f1f1e;
     --text-color: #c3c3c3;
     --primary-btn-text-color: var(--text-color);
     --rawblock-edit-panel-bd: var(--code-bg-color);
@@ -58,9 +57,11 @@
     --main-yellow: color-mix(in srgb, var(--main-yellow-original) var(--darken-ratio), black);
     --light-color: #6e6e6e;
     --theme-light-color: #353a45;
-    --code-bg-color-light: #3d404e;
     --border-color: var(--theme-color);
     --border: solid 0.5px var(--theme-color)94;
+    --code-bg-color: #282c34;
+    --code-bg-color-light: #3d404e;
+    --code-bg-color-active: #414855;
     /* ---------------->> 悬浮 <<---------------- */
     --item-bg-color-red: rgb(from var(--main-red) r g b / 0.22);
     --item-bg-color-blue: rgb(from var(--theme-color) r g b / 0.26);
@@ -100,7 +101,7 @@
 
 /* 目录 */
 p.md-toc-content {
-    background: var(--code-bg-color-light);
+    background: #292929;
 }
 
 /* 代码块文本 */
@@ -121,13 +122,6 @@ pre.CodeMirror-line>span {
     background: var(--bg-color);
     box-shadow: var(--box-shadow-large);
 }
-
-/* 行内代码 */
-#write code {
-    background-color: var(--code-bg-color);
-}
-
-
 
 /* 一体化菜单选项 */
 .megamenu-menu-list li a {
@@ -174,11 +168,6 @@ pre.CodeMirror-line>span {
     background: transparent;
 }
 
-#write h4,
-h4.md-end-block.md-heading>span>a>span {
-    color: var(--text-color);
-}
-
 
 /* Github风格警告框 */
 .md-alert-tip {
@@ -199,6 +188,10 @@ h4.md-end-block.md-heading>span>a>span {
 
 .md-alert-warning {
     --border-color: color-mix(in srgb, var(--alert-theme-color) var(--darken-ratio), black);
+}
+
+.cm-s-inner .cm-comment {
+    color: #cdcdcd;
 }
 
 
