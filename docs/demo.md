@@ -44,7 +44,9 @@
 >
 > 洛阳亲友如相问，一片**冰心**在玉壶。——**王昌龄**《芙蓉楼送辛渐》
 
-## 4 代码块
+## 4 代码
+
+行内代码 `caolib/typora-onelight-theme`
 
 ```javascript
 export default defineConfig({

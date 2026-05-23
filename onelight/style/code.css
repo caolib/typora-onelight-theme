@@ -105,10 +105,6 @@ code {
     color: #89ddff
 }
 
-.cm-s-inner .cm-variable-2 {
-    color: #eff
-}
-
 .cm-s-inner .cm-type,
 .cm-s-inner .cm-variable-3 {
     color: #ea6717
@@ -161,7 +157,6 @@ code {
 
 .cm-s-inner .cm-error {
     border: solid 0.25px #e9405c;
-    color: #fff;
 }
 
 
