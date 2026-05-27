@@ -131,13 +131,6 @@
     color: unset !important;
 }
 
-/* ---------------->> 斜体 <<---------------- */
-#write em,
-#write i {
-    color: #DA70D6;
-    margin: 0 3px;
-}
-
 /* ---------------->> 链接 <<---------------- */
 a>span.md-plain,
 a.md-url,
