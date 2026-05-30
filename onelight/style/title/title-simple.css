@@ -53,14 +53,12 @@
 
 
 #write h1 {
-    color: var(--theme-color);
     font-size: 2.5rem;
     text-align: center;
     padding-bottom: 0.3em;
 }
 
 #write h2 {
-    color: var(--theme-color);
     font-size: 2rem;
     margin: 1em 0;
     border-bottom: 2px solid var(--theme-color);
@@ -69,14 +67,12 @@
 
 
 #write h3 {
-    color: var(--theme-color);
     font-size: 1.7rem;
     position: relative;
     border-left: 4px solid var(--theme-color);
     padding-left: 8px;
     margin: 20px 0;
 }
-
 
 #write h4 {
     color: white;
@@ -92,11 +88,9 @@
 #write h5 {
     font-size: 1.3rem;
     width: fit-content;
-    color: var(--main-yellow);
 }
 
 #write h6 {
     font-size: 1.2rem;
     width: fit-content;
-    color: var(--main-green);
 }

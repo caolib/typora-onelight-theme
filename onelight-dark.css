@@ -13,9 +13,10 @@
 /* @import './onelight/style/table/table.css'; */
 @import './onelight/style/table/table-square.css';
 
-/* 标题样式 依次为 1.原样式 2.彩色样式 */
-@import './onelight/style/title/title.css';
+/* 标题样式 依次为 1.原样式 2.彩色样式 3.朴素 */
+/* @import './onelight/style/title/title.css'; */
 /* @import './onelight/style/title/title-colorful-dark.css'; */
+@import './onelight/style/title/title-simple.css';
 
 /* 列表样式 依次为 1.圆形序号 2.普通 */
 /* @import './onelight/style/list/list.css'; */

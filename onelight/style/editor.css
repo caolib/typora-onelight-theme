@@ -3,53 +3,6 @@
     text-align: left
 }
 
-/* ---------------->> 大纲参考线 <<---------------- */
-.outline-h1::after,
-.outline-h2::after,
-.outline-h3::after,
-.outline-h4::after,
-.outline-h5::after,
-.outline-h6::after {
-    content: "";
-    height: calc(100% - 25px);
-    width: 1.3px;
-    background: transparent;
-    position: absolute;
-    top: 25px;
-}
-
-li.outline-item-wrapper.outline-h1.outline-item-open:has(> ul.outline-children > li)::after {
-    background: var(--outline-color);
-    left: 6.5px;
-}
-
-li.outline-item-wrapper.outline-h2.outline-item-open:has(> ul.outline-children > li)::after {
-    background: var(--outline-color);
-    left: 20px;
-}
-
-li.outline-item-wrapper.outline-h3.outline-item-open:has(> ul.outline-children > li)::after {
-    background: var(--outline-color);
-    left: 34px;
-}
-
-li.outline-item-wrapper.outline-h4.outline-item-open:has(> ul.outline-children > li)::after {
-    background: var(--outline-color);
-    left: 48.5px;
-}
-
-li.outline-item-wrapper.outline-h5.outline-item-open:has(> ul.outline-children > li)::after {
-    background: var(--outline-color);
-    left: 62.5px;
-}
-
-/* ---------------->> 折叠箭头 <<---------------- */
-.outline-expander:before {
-    font-weight: bold;
-}
-
-
-
 .cm-s-inner .cm-link,
 .cm-s-inner.cm-link {
     color: var(--theme-color);

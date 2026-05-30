@@ -5,14 +5,16 @@
 @import './onelight/style/kbd/kbd.css';
 @import './onelight/style/plugin/copilot.css';
 @import './onelight/style/icon.css';
+@import './onelight/style/sidebar/sidebar.css';
 
 /* 表格样式 依次为 1.无边框 2.方形有边框 */
 /* @import './onelight/style/table/table.css'; */
 @import './onelight/style/table/table-square.css';
 
-/* 标题样式 依次为 1.原样式 2.彩色样式 */
-@import './onelight/style/title/title.css';
+/* 标题样式 依次为 1.原样式 2.彩色样式 3.朴素 */
+/* @import './onelight/style/title/title.css'; */
 /* @import './onelight/style/title/title-colorful-dark.css'; */
+@import './onelight/style/title/title-simple.css';
 
 /* 列表样式 依次为 1.圆形序号 2.普通 */
 /* @import './onelight/style/list/list.css'; */
@@ -234,12 +236,6 @@ span#filesearch-case-option-btn:active {
     font-family: var(--main-font-family)
 }
 
-.outline-item-active {
-    background: var(--item-bg-color-blue);
-    border-left: 28px solid transparent;
-    margin-left: -28px;
-    margin-right: -28px
-}
 
 .active-tab-files #info-panel-tab-file .info-panel-tab-border,
 .active-tab-outline #info-panel-tab-outline .info-panel-tab-border {
@@ -425,13 +421,6 @@ input:focus {
     color: var(--theme-color)
 }
 
-.outline-item:hover {
-    background: var(--item-bg-color-blue);
-}
-
-.file-library-node.file-tree-node.file-library-file-node:hover {
-    background: var(--item-bg-color-blue)
-}
 
 
 /* ---------------->> 高亮标签 <<---------------- */
