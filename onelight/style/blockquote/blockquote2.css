@@ -6,7 +6,7 @@
 
     /* ---------------->> 引用块 <<---------------- */
     blockquote {
-        background: var(--gradient-color);
+        background: var(--theme-light-color);
         border-bottom-right-radius: 10px;
         border-left: 5px solid var(--theme-color);
         border-top-right-radius: 10px;
