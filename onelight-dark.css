@@ -213,3 +213,7 @@ pre.CodeMirror-line>span {
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
+
+#write p:not(:has(.md-image)):hover {
+    background: #141414;
+}
