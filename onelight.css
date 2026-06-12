@@ -104,6 +104,24 @@
     margin-top: 3px;
 }
 
+/* 段落聚焦及标题聚焦 */
+/* 排除引用块内段落、目录项 */
+#write p.md-focus:not(blockquote p):not(.md-toc-content),
+#write h1.md-focus,
+#write h2.md-focus,
+#write h3.md-focus,
+#write h5.md-focus,
+#write h6.md-focus {
+    box-shadow: var(--box-shadow);
+    border-radius: var(--radius-xsmall);
+    background: var(--theme-light-color);
+}
+
+/* h4 聚焦只加阴影 */
+#write h4.md-focus {
+    box-shadow: var(--box-shadow);
+}
+
 #write p:not(:has(.md-image)) {
     transition: background-color 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
 }
