@@ -105,8 +105,8 @@
 }
 
 /* 段落聚焦及标题聚焦 */
-/* 排除引用块内段落、目录项 */
-#write p.md-focus:not(blockquote p):not(.md-toc-content),
+/* 排除目录项 */
+#write p.md-focus:not(.md-toc-content),
 #write h1.md-focus,
 #write h2.md-focus,
 #write h3.md-focus,
