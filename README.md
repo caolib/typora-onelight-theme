@@ -1,19 +1,6 @@
 <h1 align='center'>OneLight Theme For Typora</h1>
 
 <p align="center">
-	简体中文 |
-	<a href="https://zdoc.app/de/caolib/typora-onelight-theme">Deutsch</a> | 
-	<a href="https://zdoc.app/en/caolib/typora-onelight-theme">English</a> | 
-	<a href="https://zdoc.app/es/caolib/typora-onelight-theme">Español</a> | 
-	<a href="https://zdoc.app/fr/caolib/typora-onelight-theme">français</a> | 
-	<a href="https://zdoc.app/ja/caolib/typora-onelight-theme">日本語</a> | 
-	<a href="https://zdoc.app/ko/caolib/typora-onelight-theme">한국어</a> | 
-	<a href="https://zdoc.app/pt/caolib/typora-onelight-theme">Português</a> | 
-	<a href="https://zdoc.app/ru/caolib/typora-onelight-theme">Русский</a>
-</p>
-
-
-<p align="center">
   <img src="https://img.shields.io/github/downloads/caolib/typora-onelight-theme/total?labelColor=grey&color=blue" alt="Downloads">
   <img src="https://img.shields.io/github/v/release/caolib/typora-onelight-theme?labelColor=grey&color=red" alt="Release">
   <img src="https://img.shields.io/github/license/caolib/typora-onelight-theme" alt="License">
@@ -26,11 +13,9 @@
 
 ## 1.概览
 
-> [!tip]
-> **这里有两篇文章使用OneLight主题，可点击查看主题详细效果展示**
+> [!WARNING]
 >
-> 1. **[OneLight](https://bin-sites.pages.dev/onelight)**、**[OneLight-Dark](https://bin-sites.pages.dev/onelight/dark)**
-> 2. **[计算机网络](https://bin-sites.pages.dev/net)**
+> 已经没有维护下去的动力了，就这样
 
 ---
 
@@ -169,6 +154,7 @@
       <td><img src="https://pic1.imgdb.cn/item/68621c9658cb8da5c87ebcb3.gif"/></td>
   </table>
 </div>
+
 #### 3.2.2 列表
 
 > [!warning]
